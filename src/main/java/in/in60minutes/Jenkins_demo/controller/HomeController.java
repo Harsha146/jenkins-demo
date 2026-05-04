@@ -10,4 +10,9 @@ public class HomeController {
     public String home(){
         return "Hello Spring Boot ...";
     }
+
+    @GetMapping("/raj")
+    public String raj(){
+        return "Hello Raj ...";
+    }
 }
